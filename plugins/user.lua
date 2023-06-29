@@ -20,4 +20,17 @@ return {
       -- { "<leader>t", "<cmd>TodoTelescope<cr>", desc = "Open todos in telescope" },
     },
   },
+
+  {
+    "nvim-treesitter/nvim-treesitter",
+    build = ":TSUpdate",
+    dependencies = { "RRethy/nvim-treesitter-endwise" },
+    config = function()
+      require("nvim-treesitter.configs").setup {
+        endwise = {
+          enable = true,
+        },
+      }
+    end,
+  },
 }
