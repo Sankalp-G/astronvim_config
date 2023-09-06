@@ -44,4 +44,13 @@ return {
       }
     end,
   },
+  "tpope/vim-eunuch",
+  "alvan/vim-closetag",
+  "tpope/vim-rails",
+  "vim-ruby/vim-ruby",
+  "AndrewRadev/splitjoin.vim",
+  "AndrewRadev/switch.vim",
+  "tpope/vim-bundler",
+  "tpope/vim-dispatch",
+  "farmergreg/vim-lastplace",
 }
